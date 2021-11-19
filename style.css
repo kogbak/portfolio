@@ -1,0 +1,421 @@
+html {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow-x: hidden;
+}
+
+header {
+    background: linear-gradient(#eff2fa, #fff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+header img {
+    width: 25%;
+    margin-top: 70px;
+}
+
+.text-cv {
+    font-size: 12px;
+}
+
+.bouton-cv {
+    width: 170px;
+    background-color: #38dc61;
+    border: 1px solid #38dc61;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 10px 10px #dddddd;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul li {
+    border: transparent;
+    padding: 13px;
+    width: 100%;
+}
+
+ul a:hover {
+    text-decoration: none;
+}
+
+#li-1:hover, #li-2:hover, #li-3:hover, #li-4:hover, #li-5:hover, #li-6:hover {
+    padding: 13px;
+    width: 100%;
+    background: linear-gradient(to right, #38dc61, #30c272);
+    border: 1px solid #38dc61;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 8px 8px #dddddd;
+}
+
+.bouton-cv:hover {
+    width: 170px;
+    background-color: #38dc61;
+    border: 1px solid #38dc61;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 0px 0px #dddddd;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+/* competence ============================================================ */
+
+.bloc-competence {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bloc-competence 
+
+.bloc-dev {
+    width: 15%;
+    padding: 50px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px #dddddd;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+#competence i {
+    color: #38dc61;
+    font-size: 60px;
+    padding: 30px;
+}
+
+.titre {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    color: #626262;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.titre i {
+    color: #38dc61;
+}
+
+/* Portfolio ============================================================ */
+
+#portfolio {}
+
+.mes-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.mes-images img {
+    width: 50%;
+    margin: 0 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+}
+
+/* Technologie ============================================================ */
+
+.mes-ronds {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.rond-html5 {
+    background-color: #38dc61;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rond-css3 {
+    background-color: #38dc61;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mes-ronds i {
+    color: white;
+    font-size: 6em;
+}
+
+.mes-ronds h2 {
+    color: white;
+}
+
+/* Profil ============================================================ */
+
+.mon-profil {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 200px;
+}
+
+.mon-profil img {
+    height: 200px;
+}
+
+.mon-paragraphe {
+    width: 70%;
+    font-weight: bold;
+    display: flex;
+}
+
+.trait-vertical {
+    border-left: 2px solid #38dc61;
+    display: inline-block;
+    height: 75px;
+    margin: 0 20px;
+}
+
+/* Contact ============================================================ */
+
+#contact {
+    display: flex;
+}
+
+.mes-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    background-color: #38dc61;
+    width: 30%;
+    height: 400px;
+}
+
+.telephone {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.titre-contact i {
+    font-size: 24px;
+}
+
+.titre-contact {
+    margin-left: 50px;
+}
+
+.informations {
+    margin-left: 50px;
+}
+
+.mes-reseau {
+    background-color: #ebebeb;
+    width: 70%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icone-reseaux {
+    display: flex;
+    gap: 30px;
+    font-size: 100px;
+    color: #626262;
+}
+
+.twitter:hover {
+    display: flex;
+    gap: 30px;
+    font-size: 120px;
+    color: #2e2e2e;
+}
+
+.linke:hover {
+    display: flex;
+    gap: 30px;
+    font-size: 120px;
+    color: #2e2e2e;
+}
+
+.titre-mes-reseaux {
+    color: #626262;
+}
+
+.gras {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.trait {
+    border: 1px solid white;
+    width: 50%;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+.trait2 {
+    border: 1px solid #626262;
+    width: 10%;
+    margin-bottom: 40px;
+}
+
+/* footer ============================================================ */
+
+footer {
+    text-align: center;
+    margin: 60px 0px;
+}
+
+@media screen and (max-width:1200px) {
+    .rond-html5 {
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+    }
+    .rond-css3 {
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+    }
+    .mes-ronds {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    #contact {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:768px) {
+    header {
+        flex-direction: column;
+    }
+    header img {
+        width: 50%;
+        margin-top: 50px;
+    }
+    nav {
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    .titre {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+    .bloc-competence {
+        flex-direction: column;
+    }
+    .developpeur-web {
+        width: 70%;
+    }
+    .css {
+        width: 70%;
+    }
+    .equipe {
+        width: 70%;
+    }
+    .mes-contact {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .mes-reseau {
+        width: 100%;
+    }
+    .mon-paragraphe {
+        width: 100%;
+        font-weight: bold;
+        display: flex;
+        margin-top: 40px;
+    }
+    .mes-images img {
+        width: 80%;
+    }
+    #image-1 {
+        display: flex;
+        justify-content: center;
+    }
+    #image-2 {
+        display: flex;
+        justify-content: center;
+    }
+    #image-3 {
+        display: flex;
+        justify-content: center;
+    }
+    .mes-ronds {
+        display: flex;
+        flex-direction: column;
+    }
+}
